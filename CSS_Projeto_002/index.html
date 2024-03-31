@@ -1,200 +1,141 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="assets/Css/Index.css">
+    <link rel="stylesheet" href="../CSS_Projeto_002_v2/assets/style.css">
+    <link rel="stylesheet" href="../CSS_Projeto_002_v2/assets/style.css">
+    <title>Youtube</title>
 </head>
-
 <body>
-    <header class="header__nav">
-        <nav class="nav__item">
-            <div> <a href="#">
-                    <img src="assets/Images/menu.png" alt="menu principal">
-                </a>
-            </div>
-            <div> <a href="#">
-                    <img src="assets/Images/youtube.png" alt="">
-                </a>
-            </div>
-
-
-
-        </nav>
-        <nav class="nav__item nav-item-search">
-            <div class="menu-search ">
-                <div class="img-nav-menu-search">
-                    <input type="text" type="search">
-                    <a href="#">
-                        <img src="assets/Images/search.png" alt="botão pesquisar">
-                    </a>
+    <header>
+        <div class="container">
+            <div class="header-itens">
+                <div class="logo">
+                    <img src="../CSS_Projeto_002_v2/assets/images/menu.png" alt="botão de menu" width="24px" height="24px">
+                    <img src="../CSS_Projeto_002_v2/assets/images/youtube 1.png" alt="logo do youtube" width="90px" height="20px">
                 </div>
-            </div>
-
-        </nav>
-        <nav class="nav__item">
-            <div>
-                <div class="img-nav-menu-video">
-                    <a href="#"><img src="assets/Images/video.png" alt="">
-                    </a>
+                <div class="search">
+                    <input type="search" placeholder="search">
+                    <img class="lupa" src="../CSS_Projeto_002_v2/assets/images/search.png" alt="lupa de pesquisa" width="24px" height="24px">
                 </div>
-            </div>
-
-            <div class="img-nav-menu-bell">
-                <a href="#">
-                    <img src="assets/Images/Vector.png" alt="">
-                </a>
-            </div>
-            <div class="img-nav-menu-perfil">
-                <a href="#">
-                    <img src="assets/Images/UserPerfil.jpg" alt="">
-                </a>
-            </div>
-        </nav>
-    </header>
-
-    <main class="main">
-
-        <div class="video-principal">
-            <iframe src="https://www.youtube.com/embed/D9Zk2YKBOl8"
-                title="Como Aprender a Programar do ZERO [GUIA DO DEV INICIANTE] | Getting Started #1" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-            <h2 class="title-video">Como Aprender a Programar do ZERO [GUIA DO DEV INICIANTE] | Getting Started #1</h2>
-            <nav class="video-footer-nav">
-                <div class="channel-description">
-                    <img src="assets/Images/ChannelAvatar.png" alt="Channel Avatar DIO.me">
-                    <div class="channel-text">
-                        <h5>Dio</h5>
-                        <p>83,3 mil inscritos</p>
-                    </div>
+                <div class="user">
+                    <img src="../CSS_Projeto_002_v2/assets/images/video.png" alt="camera de video" width="24px" height="24px">
+                    <img src="../CSS_Projeto_002_v2/assets/images/bell.png" alt="tocar o sininho" width="24px" height="24px">
+                    <img src="../CSS_Projeto_002_v2/assets/images/Avatar_id.png" alt="avatar do usuário" width="34px" height="34px">
                 </div>
-                <div class="video-footer-nav-botomn-subscribe">
-                    <img src="assets/Images/Subscribe Button.png" alt="botão se inscreva">
-                </div>
-                <div class="video-footer-nav-botomn">
-                    <img src="assets/Images/thumbs-up.png" alt="botão de like">
-                    <h3> 2 mil</h3>
-                </div>
-                <div class="video-footer-nav-botomn">
-                    <img src="assets/Images/thumbs-down.png" alt="botão de like">
-                    <h3> Não gostei</h3>
-                </div>
-                <div class="video-footer-nav-botomn">
-                    <img src="assets/Images/share-2.png" alt="botão de like">
-                    <h3>Compartilhar</h3>
-                </div>
-                <div class="video-footer-nav-botomn">
-                    <img src="assets/Images/download.png" alt="botão de like">
-                    <h3>Download</h3>
-                </div>
-            </nav>
-            <div class="video-info">
-                <p>28.418 visualizações Transmitido ao vivo em 23 ago. de 2022</p>
-            </div>
-            <div class="video-discription">
-                <p>Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso, criaremos uma landing
-                    page com a temática da série Stranger Things, a qual contará com a implementação de um theme
-                    switcher (light e dark) para explorarmos os mistérios do mundo invertido.</p>
             </div>
         </div>
-        <nav class="main-siderbar">
-            <div class="main-nav-tambs-menu">
-                <div class="tambs">
-                    <div><img src="assets/Images/Tambs/Thumb_1.png" alt=""></div>
-                    <div class="tambs-description">
-                        <h3 class="item-description ">Geração Tech Unimed - BH - Ciência de Dados</h3>
-                        <p class="item-description ">DigitalInnovationOne</p>
-                        <p class="number-views-text">2,1 mil visualizações
-                            Transmitido há 2 dias</p>
+    </header>
+    <main>
+        <div class="container">
+            <div class="areas">
+                <div class="video">
+                    <div class="video-main">
+                        <iframe width="952" height="537" src="https://www.youtube.com/embed/qZJlKuHpFKc" title="Desbravando a Inteligência Artificial: Explore o Futuro da Tecnologia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="main-title">
+                        <h1>Formação Inteligência Artificial Fundamentals | Dio Pro</h1>
+                    </div>
+                    <div class="ident">
+                        <img src="../CSS_Projeto_002_v2/assets/images/Channel Avatar.png" alt="logo Dio" width="42px" height="42px">
+                        <p><b>DIO</b><br>83,3 mil inscritos</p>
+                        <button>INSCREVA-SE</button>
+                        <div class="like">
+                            <img src="../CSS_Projeto_002_v2/assets/images/thumbs_up.png" alt="botão de curtir" width="24px" height="24px">
+                            2 mil
+                        </div>
+                        <div class="dislike">
+                            <img src="../CSS_Projeto_002_v2/assets/images/thumbs-down.png" alt="botão de não curtir" width="24px" height="24px">
+                            Não gostei
+                        </div>
+                        <div class="share">
+                            <img src="../CSS_Projeto_002_v2/assets/images/share-2.png" alt="botão de compartilhar" width="24px" height="24px">
+                            Compartilhar
+                        </div>
+                        <div class="download">
+                            <img src="../CSS_Projeto_002_v2/assets/images/download.png" alt="botão de download" width="24px" height="24px">
+                            Download
+                        </div>
+                    </div>
+                    <div class="inscritos">
+                        <h2>28.418 visualizações  Transmitido ao vivo em 23 ago. de 2022</h2>
+                    </div>
+                    <div class="descricao">
+                        <p>👉 Clique no link e conheça agora a formação Inteligência Artificial Fundamentals: https://www.dio.me/curso-inteligencia... <br>
+ 
+                            <br>Explore o universo da Inteligência Artificial com a DIO! Descubra os fundamentos, aplicações práticas e pilares essenciais da IA em módulos detalhados.</p>
                     </div>
                 </div>
-                <div class="tambs">
-                    <div><img src="assets/Images/Tambs/Thumb_2.png" alt=""></div>
-                    <div class="tambs-description">
-                        <h3 class="item-description ">Scrum Talks</h3>
-                        <p class="item-description ">DigitalInnovationOne</p>
-                        <p class="number-views-text">1,6 mil visualizações
-                            Transmitido há 3 dias</p>
+                <div class="mini">
+                    <div class="mini1">
+                        <img src="../CSS_Projeto_002_v2/assets/images/Thumb.png" alt="vídeo sugerido" width="160px" height="90px">
+                    </div>
+                    <div class="mini2">
+                        <img src="../CSS_Projeto_002_v2/assets/images/image 15.png" alt="vídeo sugerido" width="160px" height="90px">
+                    </div>
+                    <div class="mini3">
+                        <img src="../CSS_Projeto_002_v2/assets/images/image 13.png" alt="vídeo sugerido" width="160px" height="90px">
+                    </div>
+                    <div class="mini4">
+                        <img src="../CSS_Projeto_002_v2/assets/images/image 12.png" alt="vídeo sugerido" width="160px" height="90px">
+                    </div>
+                    <div class="mini5">
+                        <img src="../CSS_Projeto_002_v2/assets/images/Thumb.png" alt="vídeo sugerido" width="160px" height="90px">
+                    </div>
+                    <div class="mini6">
+                        <img src="../CSS_Projeto_002_v2/assets/images/image 15.png" alt="vídeo sugerido" width="160px" height="90px">
+                    </div>
+                    <div class="mini7">
+                        <img src="../CSS_Projeto_002_v2/assets/images/image 12.png" alt="vídeo sugerido" width="160px" height="90px">
+                    </div>
+                    <div class="mini8">
+                        <img src="../CSS_Projeto_002_v2/assets/images/image 13.png" alt="vídeo sugerido" width="160px" height="90px">
+                    </div>
+                    <div class="mini9">
+                        <img src="../CSS_Projeto_002_v2/assets/images/Thumb.png" alt="vídeo sugerido" width="160px" height="90px">
                     </div>
                 </div>
-                <div class="tambs">
-                    <div><img src="assets/Images/Tambs/Thumb_3.png" alt=""></div>
-                    <div class="tambs-description">
-                        <h3 class="item-description ">Machine Learning Avançado - Fast Track</h3>
-                        <p class="item-description ">DigitalInnovationOne</p>
-                        <p class="number-views-text">1,7 mil visualizações
-                            Transmitido há 4 dias</p>
+                <div class="desc">
+                    <div class="desc1">
+                        <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
+                        <br><p>DigitalInnovationOne<br>2,1 mil visualizações<br>Transmitido há 2 dias</p>
                     </div>
-                </div>
-                <div class="tambs">
-                    <div><img src="assets/Images/Tambs/Thumb_4.png" alt=""></div>
-                    <div class="tambs-description">
-                        <h3 class="item-description ">Global Skills #2 - Project Planning</h3>
-                        <p class="item-description ">DigitalInnovationOne</p>
-                        <p class="number-views-text">971 visualizações
-                            Transmitido há 5 dias</p>
+                    <div class="desc2">
+                        <h3>Como aprender a programar Python do ZERO</h3>
+                        <br><p>DigitalInnovationOne<br>2,1 mil visualizações<br>Transmitido há 2 dias</p>
                     </div>
-                </div>
-                <div class="tambs">
-                    <div><img src="assets/Images/Tambs/Thumb_5.png" alt=""></div>
-                    <div class="tambs-description">
-                        <h3 class="item-description ">Como aprender a programar Python do ZERO</h3>
-                        <p class="item-description ">DigitalInnovationOne</p>
-                        <p class="number-views-text">711 visualizações
-                            Transmitido há 6 dias</p>
+                    <div class="desc3">
+                        <h3>Machine Learning Avançado - Fast Track</h3>
+                        <br><p>DigitalInnovationOne<br>2,1 mil visualizações<br>Transmitido há 2 dias</p>
                     </div>
-                </div>
-                <div class="tambs">
-                    <div><img src="assets/Images/Tambs/Thumb_1.png" alt=""></div>
-                    <div class="tambs-description">
-                        <h3 class="item-description ">Geração Tech Unimed - BH - Ciência de Dados</h3>
-                        <p class="item-description ">DigitalInnovationOne</p>
-                        <p class="number-views-text">2,1 mil visualizações
-                            Transmitido há 2 dias</p>
+                    <div class="desc4">
+                        <h3>Scrum Talks</h3>
+                        <br><p>DigitalInnovationOne<br>2,1 mil visualizações<br>Transmitido há 2 dias</p>
                     </div>
-                </div>
-                <div class="tambs">
-                    <div><img src="assets/Images/Tambs/Thumb_2.png" alt=""></div>
-                    <div class="tambs-description">
-                        <h3 class="item-description ">Scrum Talks</h3>
-                        <p class="item-description ">DigitalInnovationOne</p>
-                        <p class="number-views-text">1,6 mil visualizações
-                            Transmitido há 3 dias</p>
+                    <div class="desc5">
+                        <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
+                        <br><p>DigitalInnovationOne<br>2,1 mil visualizações<br>Transmitido há 2 dias</p>
                     </div>
-                </div>
-                <div class="tambs">
-                    <div><img src="assets/Images/Tambs/Thumb_3.png" alt=""></div>
-                    <div class="tambs-description">
-                        <h3 class="item-description ">Machine Learning Avançado - Fast Track</h3>
-                        <p class="item-description ">DigitalInnovationOne</p>
-                        <p class="number-views-text">1,7 mil visualizações
-                            Transmitido há 4 dias</p>
+                    <div class="desc6">
+                        <h3>Como aprender a programar Python do ZERO</h3>
+                        <br><p>DigitalInnovationOne<br>2,1 mil visualizações<br>Transmitido há 2 dias</p>
                     </div>
-                </div>
-                <div class="tambs">
-                    <div><img src="assets/Images/Tambs/Thumb_4.png" alt=""></div>
-                    <div class="tambs-description">
-                        <h3 class="item-description ">Global Skills #2 - Project Planning</h3>
-                        <p class="item-description ">DigitalInnovationOne</p>
-                        <p class="number-views-text">971 visualizações
-                            Transmitido há 5 dias</p>
+                    <div class="desc7">
+                        <h3>Scrum Talks</h3>
+                        <p>DigitalInnovationOne<br>2,1 mil visualizações<br>Transmitido há 2 dias</p>
                     </div>
-                </div>
-                <div class="tambs">
-                    <div><img src="assets/Images/Tambs/Thumb_5.png" alt=""></div>
-                    <div class="tambs-description">
-                        <h3 class="item-description ">Como aprender a programar Python do ZERO</h3>
-                        <p class="item-description ">DigitalInnovationOne</p>
-                        <p class="number-views-text">711 visualizações
-                            Transmitido há 6 dias</p>
+                    <div class="desc8">
+                        <h3>Machine Learning Avançado - Fast Track</h3>
+                        <br><p>DigitalInnovationOne<br>2,1 mil visualizações<br>Transmitido há 2 dias</p>
+                    </div>
+                    <div class="desc9">
+                        <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
+                        <br><p>DigitalInnovationOne<br>2,1 mil visualizações<br>Transmitido há 2 dias</p>
                     </div>
                 </div>
             </div>
-        </nav>
+        </div>
     </main>
 </body>
-
 </html>

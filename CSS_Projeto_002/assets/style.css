@@ -1,0 +1,134 @@
+@import url('reset.css');
+*{
+    margin: 0 5px;
+    padding: 0;
+    background-color: #fff;
+}
+header{
+    width: 1440px;
+    height: 56px;
+    background-color: #fff;
+}
+header .header-itens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+header .header-itens img .lupa{
+    width: 57px;
+    height: 40px;
+}
+header .header-itens input{
+    width: 404px;
+    height: 40px;
+    border: 1px solid #cccccc;
+}
+main .areas{
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    gap: 20px;
+}
+main .video{
+    width: 952px;
+    height: 746px;
+}
+main .video-main{
+    width: 952px;
+    height: 537px;
+}
+.video .main-title h1{
+    width: 871px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23.44px;
+    padding-top: 15px;
+}
+.ident{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 30px;
+    width: 902px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.ident button{
+    width: 159px;
+    height: 40px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+.inscritos h2{
+    width: 391px;
+    height: 16px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 45px;
+}
+.descricao p{
+    width: 510px;
+    height: 64px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    margin-top: 40px;
+}
+main .mini{
+    width: 160px;
+    height: 938px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.mini1,
+.mini2,
+.mini3,
+.mini4,
+.mini5,
+.mini6,
+.mini7,
+.mini8,
+.mini9{
+    width: 160px;
+    height: 90px;
+}
+main .desc,
+main h3{
+    margin: 0;
+    width: 196px;
+    height: 938px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    gap: 10px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+}
+.desc1,
+.desc2,
+.desc3,
+.desc4,
+.desc5,
+.desc6,
+.desc7,
+.desc8,
+.desc9{
+    width: 196px;
+    height: 89px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
